@@ -2,6 +2,6 @@
 <manifest>  
 <remote name="repo_server" fetch="git@github.com:whr4935/" review="review.source.android.com" />  
 <default revision="master" remote="repo_server" />  
-<project name="coding" path="coding"/>  
-<project name="build" path="build"/>  
+<project name="coding.git" path="coding"/>  
+<project name="build.git" path="build"/>  
 </manifest>  
