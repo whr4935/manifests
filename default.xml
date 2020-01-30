@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>  
 <manifest>  
-<remote name="repo_server" fetch="git@github.com:whr4935/" review="review.source.android.com" />  
-<default revision="master" remote="repo_server" />  
-<project name="coding.git" path="coding"/>  
-<project name="build.git" path="build"/>  
+    <remote name="repo_server"
+        fetch="ssh://git@github.com/whr4935"
+        review="" />
+    <default revision="master"
+        remote="repo_server" />
+
+    <project name="coding" path="coding"/>  
+    <project name="build" path="build"/>  
 </manifest>  
