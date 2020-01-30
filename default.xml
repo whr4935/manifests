@@ -9,4 +9,5 @@
 
     <project name="coding" path="coding"/>  
     <project name="build" path="build"/>  
+    <project name="monkeyKing" path="monkeyKing"/>
 </manifest>  
