@@ -4,7 +4,8 @@
         fetch="ssh://git@github.com/whr4935"
         review="" />
     <default revision="master"
-        remote="repo_server" />
+        remote="repo_server"
+        sync-j="4" />
 
     <project name="coding" path="coding"/>  
     <project name="build" path="build"/>  
